@@ -1,16 +1,16 @@
-#Team Members
+# Team Members
 - Alex Kopp
 - Andrew Skorupa
 - Savannah Porter
 - Mohamed Abouelkhier
 
-#Visualization Topic:
+# Visualization Topic:
 - Automanufacturer stock price following the IPO of Tesla (2012-2022)
  
-#Data Set:
+# Data Set:
 - https://www.kaggle.com/datasets/prasertk/top-48-automakers-daily-stock-prices-20102022
 
-#Questions to Answer:
+# Questions to Answer:
 - What companies have gained the most market capitalization?
 - What companies have lost the most market capitalization?
 - Where are companies located?

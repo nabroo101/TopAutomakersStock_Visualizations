@@ -1,8 +1,8 @@
-# Team Members
-- Alex Kopp
-- Andrew Skorupa
-- Savannah Porter
-- Mohamed Abouelkhier
+# Project Contributors & Responsibilities
+- Alex Kopp - Python/Flask
+- Andrew Skorupa - SQL
+- Savannah Porter - Javascript
+- Mohamed Abouelkhier - HTML/CSS
 
 # Visualization Topic:
 - Automanufacturer stock price following the IPO of Tesla (2012-2022)
@@ -14,7 +14,6 @@
 - What companies have gained the most market capitalization?
 - What companies have lost the most market capitalization?
 - Where are companies located?
-- How does Market Capitalization compare to revenues each year?
 
 
 # Requirements

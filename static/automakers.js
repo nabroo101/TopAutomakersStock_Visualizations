@@ -1,27 +1,27 @@
+// set json end
+const auto_data="../Resources/Largest automakers by market capitalization.json";
+const auto_stockfeed="../Resources/Top 10 Automaker Stocks 2010-2022.json";
+console.log(auto_data);
+
 var option = '';
 var dataSet ;
 
 
-function init() {
-//     d3.json('Top 10 Automaker Stocks 2010-2022.json', function(data) {
-//         for (let i = 0; i < 10; i++) {
-//           console.log(`Name: ${data[i].Name}, Rank: ${data[i].Rank}`);
-//         }
-//       })};
 
-  // d3.json('Largest automakers by market capitalization.json').then(function(data){
-  //   dataSet = data;
+// function init() {
 
-  //   console.log(dataSet)});
+  d3.json(auto_data).then(function(data) {
+    dataSet = data;
+
+    console.log(dataSet)});
+
+  d3.json(auto_stockfeed).then(function(stockfeed) {
+      dataSet = stockfeed;
+  
+      console.log(dataSet)});
   // }
 
-  d3.json("./TopAutomobileStock_Visualizations/Resources/Largest automakers by market capitalization.json", function(error, data) {
-    if (error) throw error;
-    console.log(data);
-    console.log("Data loaded successfully.");
-  })};
-
-init();
+// init();
 
 //     displayMetaData(940,dataSet);
 //     displayHBarChart(940,dataSet);

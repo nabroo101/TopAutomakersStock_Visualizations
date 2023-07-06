@@ -14,13 +14,15 @@ function init() {
 
   //   console.log(dataSet)});
   // }
-    
 
-  d3.json("./Resources/Largest automakers by market capitalization.json", function(error, data) {
+  d3.json("./TopAutomobileStock_Visualizations/Resources/Largest automakers by market capitalization.json", function(error, data) {
     if (error) throw error;
     console.log(data);
     console.log("Data loaded successfully.");
   })};
+
+init();
+
 //     displayMetaData(940,dataSet);
 //     displayHBarChart(940,dataSet);
 //     displayBubbleChart(940,dataSet);
